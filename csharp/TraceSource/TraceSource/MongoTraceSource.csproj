@@ -52,6 +52,7 @@
       <HintPath>..\packages\System.Diagnostics.TraceSource.4.3.0\lib\net46\System.Diagnostics.TraceSource.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib" />
+<<<<<<< HEAD
     <Reference Include="System.Security.Principal.Windows">
       <HintPath>..\packages\System.Security.Principal.Windows.4.5.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
     </Reference>
@@ -79,6 +80,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+=======
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+>>>>>>> 3502a6b44578c85993afb43d7d50066a5463f002
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

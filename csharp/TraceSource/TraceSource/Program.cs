@@ -21,6 +21,7 @@ namespace MongoTraceSource
             traceSource.Listeners.Add(listener);
 
 
+
             var username = ConfigurationManager.AppSettings.Get("username");
             var pwd = ConfigurationManager.AppSettings.Get("password");
 
@@ -32,8 +33,11 @@ namespace MongoTraceSource
             _servers.Add(new MongoServerAddress(ConfigurationManager.AppSettings.Get("server1")));
             _servers.Add(new MongoServerAddress(ConfigurationManager.AppSettings.Get("server2")));
 
+
+
             var settings = new MongoClientSettings
             {
+
 
                 Credential = MongoCredential.CreateCredential("admin", username, pwd),
                 ReplicaSetName = ConfigurationManager.AppSettings.Get("replicaSetName"),
