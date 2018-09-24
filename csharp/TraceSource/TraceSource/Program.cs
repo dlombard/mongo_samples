@@ -29,9 +29,9 @@ namespace MongoTraceSource
             //Servers List
             List<MongoServerAddress> _servers = new List<MongoServerAddress>();
 
-            _servers.Add(new MongoServerAddress(ConfigurationManager.AppSettings.Get("server0")));
-            _servers.Add(new MongoServerAddress(ConfigurationManager.AppSettings.Get("server1")));
-            _servers.Add(new MongoServerAddress(ConfigurationManager.AppSettings.Get("server2")));
+            _servers.Add(new MongoServerAddress(ConfigurationManager.AppSettings.Get("server0"),27017));
+            _servers.Add(new MongoServerAddress(ConfigurationManager.AppSettings.Get("server1"), 27017));
+            _servers.Add(new MongoServerAddress(ConfigurationManager.AppSettings.Get("server2"), 27017));
 
 
 

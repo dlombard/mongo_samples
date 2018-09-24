@@ -60,7 +60,6 @@ typings/
 # next.js build output
 .next
 
-app.config
 
 # Download this file using PowerShell v3 under Windows with the following comand:
 # Invoke-WebRequest https://gist.githubusercontent.com/kmorcinek/2710267/raw/ -OutFile .gitignore
@@ -277,7 +276,7 @@ project.lock.json
 *.feature.xlsx.*
 *.Specs_*.html
 
-app.config
+csharp/**/app.config
 #####
 # End of core ignore list, below put you custom 'per project' settings (patterns or path)
 #####

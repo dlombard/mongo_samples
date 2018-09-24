@@ -4,11 +4,7 @@ using System.Runtime.CompilerServices;
 // Information about this assembly is defined by the following attributes. 
 // Change them to the values specific to your project.
 
-<<<<<<< HEAD
 [assembly: AssemblyTitle("MongoTraceSource")]
-=======
-[assembly: AssemblyTitle("TraceSource")]
->>>>>>> 3502a6b44578c85993afb43d7d50066a5463f002
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
